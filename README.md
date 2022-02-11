@@ -35,6 +35,7 @@ Le package ne fonctionne que sur Raspberry Pi et possède deux dépendances qu'i
 `$ sudo pip2 install Pillow`
 
 ### Utilisation
+---------------
 Le package n'a pas de configuration ni d'intelligence particulière, il ne fait qu'attendre un `message Callback` de Constellation pour se mettre à jour avec la syntaxe suivante :
 ```python
 DISPLAY_PACKAGE = "ConstellationAffichageLED"
